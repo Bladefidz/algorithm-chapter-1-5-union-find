@@ -6,7 +6,7 @@ Quick-Union offer faster union operation, but find operation has strong correlat
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 5 | 9 |  | 1 | 1 | 1 | 8 | 8 | 0 | 1 | 1 | 8 | 8 |
 | **FIND** |  |  | - | 1 |  |  |  | - |  |  | 8 | - |
-| **UNION** |  |  |  |  |  |  |  |  |  |  | 1 |  |
+| **UNION** |  |  |  |  |  |  |  |  |  |  | 1 |   |
 
 Right tree of root 8 smaller that left tree of root 1, then we need to decided that right tree should be connected as child of left tree.
 
