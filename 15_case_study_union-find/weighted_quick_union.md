@@ -5,11 +5,12 @@ Quick-Union offer faster union operation, but find operation has strong correlat
 | p | q |  | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 5 | 9 |  | 1 | 1 | 1 | 8 | 8 | 0 | 1 | 1 | 8 | 8 |
-| Find |  | - | 1 |  |  |  | - |  |  | 8 | - |
-| Union |  |  |  |  |  |  |  |  |  | 1 |  |
+| **FIND** |  |  | - | 1 |  |  |  | - |  |  | 8 | - |
+| **UNION** |  |  |  |  |  |  |  |  |  |  | 1 |  |
 
 Right tree of root 8 smaller that left tree of root 1, then we need to decided that right tree should be connected as child of left tree.
 
 Weighted Quick-Union amazingly best algorithm so far in practice. The experiment using 100 vertex proof that weighted scheme offered better union performance.
 
 ![](../assets/image3.png)
+
